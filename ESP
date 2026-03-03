@@ -38,7 +38,7 @@ local bones = {
     {"RightUpperLeg", "RightLowerLeg"},
 }
 
-local flags = { -- basically a substitute for ur ui flags (flags["wahdiuawdhwa"])
+flags = { -- basically a substitute for ur ui flags (flags["wahdiuawdhwa"])
     ["Enabled"] = false;
     ["Names"] = false; 
     ["Name_Color"] = { Color = rgb(0, 255, 255) };
