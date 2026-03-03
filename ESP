@@ -731,3 +731,7 @@ esp.player_removed = players.PlayerRemoving:Connect(function(v)
 end)
 task.wait()
 esp.refresh_elements()
+return {
+    flags = flags,
+    refresh_elements = esp.refresh_elements
+}
