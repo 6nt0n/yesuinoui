@@ -25,7 +25,7 @@ local numkey = NumberSequenceKeypoint.new
 
 local camera = workspace.CurrentCamera
 
-local bones = {
+bones = {
     {"Head", "UpperTorso"},
     {"UpperTorso", "LowerTorso"},
     {"UpperTorso", "LeftUpperArm"},
